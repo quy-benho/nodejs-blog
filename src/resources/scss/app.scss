@@ -1,11 +1,20 @@
 @import 'variables';
 
-.test{
+.test {
     font-size: large;
     background-color: $color;
     width: 100px;
 }
-h1{
+
+h1 {
     color: green;
 }
 
+.card-course-item {
+    margin-top: 16px;
+}
+
+.col-lg-9 img {
+    max-width: 400px;
+    height: auto;
+}
